@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                
+                git "https://github.com/Pandidurai-22/SonarQube-using-jenkins.git"
             }
         }
     }
